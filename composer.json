@@ -1,0 +1,20 @@
+{
+    "name": "php-workflow",
+    "type": "library",
+    "description": "A workflow library for PHP",
+    "keywords": ["flow", "workflow", "task"],
+    "authors": [
+        {
+            "name": "imunew"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {"PhpWorkflow\\": "src/PhpWorkflow"}
+    },
+    "autoload-dev": {
+        "psr-4": {"PhpWorkflow\\": "tests/PhpWorkflow"}
+    }
+}
